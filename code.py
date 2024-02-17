@@ -15,3 +15,6 @@ if r.ok:
         f.write(r.content)
 else:
     r.raise_for_status()
+
+
+print("Image saved as 'output_image.jpg'")
